@@ -1,11 +1,15 @@
 import { useState } from 'react'
+import Navigation from './Customer/Component/Naviation/Navigation'
+import HomePage from './Customer/pages/HomePage/HomePage'
+import Footer from './Customer/Component/Footer/Footer'
+
 function App() {
 
   return (
     <>
-      <div className='bg-red-300 text-green-400'>
-        apple
-       </div>
+      <Navigation/>
+      <HomePage/>
+      <Footer/>
     </>
   )
 }
